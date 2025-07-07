@@ -1,55 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới Thiệu Bản Thân</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Giới thiệu bản thân</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
-            text-align: center;
-            padding: 50px;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-image: url('ea9b0281-fc5f-490a-87d0-1b35b7f67b5d.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .profile {
-            background-color: white;
-            max-width: 600px;
-            margin: 0 auto;
-            border-radius: 20px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-            padding: 30px;
-        }
-
-        .profile img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 4px solid #6c63ff;
-            margin-bottom: 20px;
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 16px;
+            max-width: 700px;
+            width: 90%;
+            box-shadow: 0 0 12px rgba(0,0,0,0.4);
         }
 
         h1 {
-            color: #333;
+            text-align: center;
+            color: #ffcc00;
+            margin-bottom: 30px;
         }
 
-        p {
+        .info p {
             font-size: 18px;
-            color: #555;
-            line-height: 1.6;
+            line-height: 1.8;
+        }
+
+        .info .label {
+            font-weight: bold;
+            color: #ffcc00;
+        }
+
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
         }
     </style>
 </head>
 <body>
-    <div class="profile">
-        <img src="z6779351590757_d5ccc6960442d7fd7afaad6454b3a86a.jpg" alt="Ảnh đại diện">
-        <h1>Ngiyễn Thị Trúc Hoa</h1>
-        <p><strong>Chiều cao:</strong> 1m65</p>
-        <p><strong>Cân nặng:</strong> 50kg</p>
-        <p><strong>Nghề nghiệp:</strong> Chăm sóc khách hàng trong lĩnh vực kinh doanh</p>
-        <p><strong>Sở thích:</strong> nghe nhạc, đi cà phê, chụp ảnh chữa lành</p>
+    <div class="overlay">
+        <h1>🌟 Giới Thiệu Bản Thân 🌟</h1>
+        <div class="info">
+            <p><span class="label">Họ và tên:</span> Nguyễn Thị A</p>
+            <p><span class="label">Chiều cao:</span> 1m60</p>
+            <p><span class="label">Cân nặng:</span> 48kg</p>
+            <p><span class="label">Ngày sinh:</span> 15/06/2002</p>
+            <p><span class="label">Quê quán:</span> Long An</p>
+            <p><span class="label">Trình độ học vấn:</span> Cử nhân Quản trị Kinh doanh - ĐH Kinh tế Công nghiệp Long An</p>
+            <p><span class="label">Sở thích:</span></p>
+            <ul>
+                <li>Đọc sách phát triển bản thân</li>
+                <li>Làm việc trên máy tính</li>
+                <li>Nghe nhạc, trồng cây</li>
+                <li>Giao tiếp và làm việc nhóm</li>
+            </ul>
+            <p><span class="label">Mục tiêu:</span> Mong muốn làm việc trong môi trường chuyên nghiệp, có cơ hội phát triển bản thân lâu dài.</p>
+        </div>
     </div>
 </body>
 </html>
